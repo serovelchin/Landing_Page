@@ -10,11 +10,11 @@
     <script src="https://kit.fontawesome.com/1ddfacda71.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div>
+<div class="wrappage">
   <header id="header">
     <div class="logo">  
 <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo">
-</div>
+    </div>
 <nav id="nav-bar">
   <ul>
   <li><a class="nav-link" href="#features">Features</a></li>
@@ -26,67 +26,95 @@
 <section id="hero">
   <h2>Handcrafted, home-made masterpieces</h2>
   <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
-    <input id="email"  type="email"  placeholder="Enter your email address"/>
+    <input id="email" name="email" type="email"  placeholder="Enter your email address"/>
     <input id="submit" value="Get started" type="submit"/>
   </form>
 </section>
-<div>
   <div class="container">
    <div id="features">
     <div class="grid">
     <div class="icon">
       <i class="fa-solid fa-fire-flame-curved"></i>
     </div>
-    <div>
+    <div class="text">
       <h2>Premium Materials</h2>
       <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
     </div>
     </div>
-  </div>
-  </div>
-  <div>
-    <div class="container">
-     <div id="features">
+  
       <div class="grid">
       <div class="icon">
         <i class="fa-solid fa-truck"></i>
       </div>
-      <div>
+      <div class="text">
         <h2>Fast Shipping</h2>
         <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
       </div>
       </div>
-    </div>
-    </div>
-    <div>
-      <div class="container">
-       <div id="features">
+   
         <div class="grid">
         <div class="icon">
           <i class="fa-solid fa-battery-full"></i>
         </div>
-        <div>
+        <div class="text">
           <h2>Quality Assurance</h2>
           <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
         </div>
-        </div>
+       </div>
+       </div>
       </div>
-      </div>
+<div id="how_it_works">
 <iframe id="video" 
 src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" 
-frameborder="0" ></iframe>
+frameborder="0"  height="315" width="500"></iframe>
 </div>
-<section id="pricing"></section>
-</div>
-<footer>
-  <ul>
-    <li><a href="#">Privacy</a></li>
-    <li><a href="#">Terms</a></li>
-    <li><a href="#">Contacts</a></li>
-  </ul>
-  <span>Copyright 2016, Original Trombones</span>
-</footer>
 
+<div id="pricing">
+  <div class="product">
+    <div class="level">TENOR TROMBONE</div>
+    <h2>$600</h2>
+     <ol>
+      <li>Lorem ipsum</li>
+      <li>Lorem ipsum</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum</li>
+     </ol>
+     <Button class="btn">SELECT</Button>
+  </div> 
+
+  <div class="product">
+      <div class="level">BASS TROMBONE</div>
+      <h2>$900</h2>
+      <ol>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum</li>
+      </ol>
+      <Button class="btn">SELECT</Button>
+  </div> 
+  <div class="product">
+        <div class="level">VALVE TROMBONE</div>
+        <h2>$1200</h2>
+        <ol>
+          <li>Plays similar to a Trumpet</li>
+          <li>Great for Jazz Bands</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum</li>
+        </ol>
+        <Button class="btn">SELECT</Button>
+  </div>
+</div>
 <div>
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+    <span>Copyright 2016, Original Trombones</span>
+  </footer>
+</div>
+</div>
 </body>
 </html>
